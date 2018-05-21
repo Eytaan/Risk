@@ -1,6 +1,6 @@
 
 public class Territory {
-	static int id_counter;
+	static int id_counter=1;
 
 	int id; 
 	String name;
