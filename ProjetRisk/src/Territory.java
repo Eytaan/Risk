@@ -3,7 +3,6 @@ public class Territory {
 	static int id_counter;
 
 	int id; 
-	int region_id;
 	String name;
 	String[] neighbors;
 	double x_pos;
