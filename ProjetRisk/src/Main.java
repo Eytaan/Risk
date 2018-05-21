@@ -1,7 +1,9 @@
 import edu.princeton.cs.introcs.StdDraw;
+import java.util.concurrent.TimeUnit;
+
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		//REGIONS
 		Region NorthAmerica = new Region("North America");
 		Region SouthAmerica = new Region("South America");
@@ -170,7 +172,7 @@ public class Main {
 
 		WesternEurope.setNeighbors(WesternEurope_neighbors);
 		SouthernEurope.setNeighbors(SouthernEurope_neighbors);
-		NorthernEurope.setNeighbors(SouthernEurope_neighbors);
+		NorthernEurope.setNeighbors(NorthernEurope_neighbors);
 		Ukraine.setNeighbors(Ukraine_neighbors);
 		Scandinavia.setNeighbors(Scandinavia_neighbors);
 		GreatBritain.setNeighbors(GreatBritain_neighbors);
@@ -196,18 +198,63 @@ public class Main {
 		
 		//VIEWS
 
-		int x = 1000;
-		int y = 800;
-		StdDraw.setXscale(0,x);
+		int x = 800;
+		int y = 745; // 497
+		StdDraw.setXscale(0,x); // 248.5 
 		StdDraw.setYscale(0,y);
 		StdDraw.setCanvasSize(x,y);
-		StdDraw.picture(0.5, 0.5, "RISKMAP.png");
+		StdDraw.picture(0.5, 0.66, "ProjetRisk/Blank Risk.png");
 		
-		StdDraw.square(20, 30, 20);
+		Alaska.setPosition(0.06625,0.8644295302013423,0.02);
+		NorthwestTerritory.setPosition(0.16,0.8644295302013423,0.02);
+		Alberta.setPosition(0.06625,0.8644295302013423,0.02);
+		WesternUnitedStates.setPosition(0.06625,0.8644295302013423,0.02);
+		CentralAmerica.setPosition(0.06625,0.8644295302013423,0.02);
+		EasternUnitedStates.setPosition(0.06625,0.8644295302013423,0.02);
+		Ontario.setPosition(0.06625,0.8644295302013423,0.02);
+		Quebec.setPosition(0.06625,0.8644295302013423,0.02);
+		Greenland.setPosition(0.06625,0.8644295302013423,0.02);
 		
-
-
-
+		Venezuela.setPosition(0.06625,0.8644295302013423,0.02);
+		Brazil.setPosition(0.06625,0.8644295302013423,0.02);
+		Peru.setPosition(0.06625,0.8644295302013423,0.02);
+		Argentina.setPosition(0.06625,0.8644295302013423,0.02);
+		
+		NorthAfrica.setPosition(0.06625,0.8644295302013423,0.02);
+		Egypt.setPosition(0.06625,0.8644295302013423,0.02);
+		EastAfrica.setPosition(0.06625,0.8644295302013423,0.02);
+		Congo.setPosition(0.06625,0.8644295302013423,0.02);
+		SouthAfrica.setPosition(0.06625,0.8644295302013423,0.02);
+		Madagascar.setPosition(0.06625,0.8644295302013423,0.02);
+		
+		WesternEurope.setPosition(0.06625,0.8644295302013423,0.02);
+		NorthernEurope.setPosition(0.06625,0.8644295302013423,0.02);
+		SouthernEurope.setPosition(0.06625,0.8644295302013423,0.02);
+		Ukraine.setPosition(0.06625,0.8644295302013423,0.02);
+		Scandinavia.setPosition(0.06625,0.8644295302013423,0.02);
+		GreatBritain.setPosition(0.06625,0.8644295302013423,0.02);
+		Iceland.setPosition(0.06625,0.8644295302013423,0.02);
+		
+		MiddleEast.setPosition(0.06625,0.8644295302013423,0.02);
+		Afghanistan.setPosition(0.06625,0.8644295302013423,0.02);
+		Ural.setPosition(0.06625,0.8644295302013423,0.02);
+		Siberia.setPosition(0.06625,0.8644295302013423,0.02);
+		Yakutsk.setPosition(0.06625,0.8644295302013423,0.02);
+		Irkutsk.setPosition(0.06625,0.8644295302013423,0.02);
+		Kamchatka.setPosition(0.06625,0.8644295302013423,0.02);
+		Japan.setPosition(0.06625,0.8644295302013423,0.02);
+		Mongolia.setPosition(0.06625,0.8644295302013423,0.02);
+		China.setPosition(0.06625,0.8644295302013423,0.02);
+		India.setPosition(0.06625,0.8644295302013423,0.02);
+		Siam.setPosition(0.06625,0.8644295302013423,0.02);
+		
+		
+		Indonesia.setPosition(0.06625,0.8644295302013423,0.02);
+		NewGuinea.setPosition(0.06625,0.8644295302013423,0.02);
+		EasternAustralia.setPosition(0.06625,0.8644295302013423,0.02);
+		WesternAustralia.setPosition(0.06625,0.8644295302013423,0.02);
+		
+		
 	}
 
 }
