@@ -1,5 +1,5 @@
 
-public class Unit {
+public abstract class Unit {
 	static int id_counter=1;
 	
 	int id;
