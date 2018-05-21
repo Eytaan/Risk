@@ -22,6 +22,10 @@ public class Territory {
 	public String[] getNeighbors() {
 		return neighbors;
 	}
+	
+	public int getId() {
+		return this.id;
+	}
 
 
 	//SET 
