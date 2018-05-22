@@ -206,54 +206,53 @@ public class Main {
 		StdDraw.picture(0.5, 0.66, "ProjetRisk/Blank Risk.png");
 		
 		Alaska.setPosition(0.06625,0.8644295302013423,0.02);
-		NorthwestTerritory.setPosition(0.16,0.8644295302013423,0.02);
-		Alberta.setPosition(0.06625,0.8644295302013423,0.02);
-		WesternUnitedStates.setPosition(0.06625,0.8644295302013423,0.02);
-		CentralAmerica.setPosition(0.06625,0.8644295302013423,0.02);
-		EasternUnitedStates.setPosition(0.06625,0.8644295302013423,0.02);
-		Ontario.setPosition(0.06625,0.8644295302013423,0.02);
-		Quebec.setPosition(0.06625,0.8644295302013423,0.02);
-		Greenland.setPosition(0.06625,0.8644295302013423,0.02);
+		NorthwestTerritory.setPosition(0.16, 0.8644295302013423,0.02);
+		Alberta.setPosition(0.17125,0.8040268456375839,0.02);
+		WesternUnitedStates.setPosition(0.16375,0.7463087248322148,0.02);
+		CentralAmerica.setPosition(0.18875,0.6657718120805369,0.02);
+		EasternUnitedStates.setPosition(0.25875 , 0.7328859060402684,0.02);
+		Ontario.setPosition(0.23875 , 0.8013422818791947,0.02);
+		Quebec.setPosition(0.3125 ,0.8040268456375839,0.02);
+		Greenland.setPosition( 0.38375 , 0.9033557046979865,0.02);
 		
-		Venezuela.setPosition(0.06625,0.8644295302013423,0.02);
-		Brazil.setPosition(0.06625,0.8644295302013423,0.02);
-		Peru.setPosition(0.06625,0.8644295302013423,0.02);
-		Argentina.setPosition(0.06625,0.8644295302013423,0.02);
+		Venezuela.setPosition(0.21875 , 0.6013422818791947,0.02);
+		Brazil.setPosition(0.30375 ,0.52751677852349,0.02);
+		Peru.setPosition(0.20125,0.512751677852349,0.02);
+		Argentina.setPosition(0.2425,0.4134228187919463,0.02);
 		
-		NorthAfrica.setPosition(0.06625,0.8644295302013423,0.02);
-		Egypt.setPosition(0.06625,0.8644295302013423,0.02);
-		EastAfrica.setPosition(0.06625,0.8644295302013423,0.02);
-		Congo.setPosition(0.06625,0.8644295302013423,0.02);
-		SouthAfrica.setPosition(0.06625,0.8644295302013423,0.02);
-		Madagascar.setPosition(0.06625,0.8644295302013423,0.02);
+		NorthAfrica.setPosition(0.49375 , 0.4,0.02);
+		Egypt.setPosition(0.505 ,0.6255033557046981,0.02);
+		EastAfrica.setPosition(0.57375, 0.5248322147651007,0.02);
+		Congo.setPosition(0.4925 , 0.49261744966442955,0.02);
+		SouthAfrica.setPosition(0.43375, 0.5825503355704698,0.02);
+		Madagascar.setPosition(0.58625 , 0.4120805369127517,0.02);
 		
-		WesternEurope.setPosition(0.06625,0.8644295302013423,0.02);
-		NorthernEurope.setPosition(0.06625,0.8644295302013423,0.02);
-		SouthernEurope.setPosition(0.06625,0.8644295302013423,0.02);
-		Ukraine.setPosition(0.06625,0.8644295302013423,0.02);
-		Scandinavia.setPosition(0.06625,0.8644295302013423,0.02);
-		GreatBritain.setPosition(0.06625,0.8644295302013423,0.02);
-		Iceland.setPosition(0.06625,0.8644295302013423,0.02);
+		WesternEurope.setPosition(0.4225 , 0.7114093959731543,0.02);
+		NorthernEurope.setPosition(0.48,0.763758389261745,0.02);
+		SouthernEurope.setPosition(0.4925 , 0.7087248322147651,0.02);
+		Ukraine.setPosition(0.57375 , 0.7973154362416107,0.02);
+		Scandinavia.setPosition(0.4775 , 0.8483221476510068,0.02);
+		GreatBritain.setPosition(0.41625 , 0.7718120805369127,0.02);
+		Iceland.setPosition(0.4225, 0.8362416107382551,0.02);
 		
-		MiddleEast.setPosition(0.06625,0.8644295302013423,0.02);
-		Afghanistan.setPosition(0.06625,0.8644295302013423,0.02);
-		Ural.setPosition(0.06625,0.8644295302013423,0.02);
-		Siberia.setPosition(0.06625,0.8644295302013423,0.02);
-		Yakutsk.setPosition(0.06625,0.8644295302013423,0.02);
-		Irkutsk.setPosition(0.06625,0.8644295302013423,0.02);
-		Kamchatka.setPosition(0.06625,0.8644295302013423,0.02);
-		Japan.setPosition(0.06625,0.8644295302013423,0.02);
-		Mongolia.setPosition(0.06625,0.8644295302013423,0.02);
-		China.setPosition(0.06625,0.8644295302013423,0.02);
-		India.setPosition(0.06625,0.8644295302013423,0.02);
-		Siam.setPosition(0.06625,0.8644295302013423,0.02);
+		MiddleEast.setPosition(0.58625 , 0.6375838926174497,0.02);
+		Afghanistan.setPosition(0.6425 , 0.7288590604026846,0.02);
+		Ural.setPosition(0.66875 , 0.8187919463087249,0.02);
+		Siberia.setPosition(0.73375, 0.8416107382550335,0.02);
+		Yakutsk.setPosition(0.82625, 0.8577181208053691,0.02);
+		Irkutsk.setPosition(0.79375, 0.7919463087248322,0.02);
+		Kamchatka.setPosition(0.93125 , 0.8429530201342281,0.02);
+		Japan.setPosition(0.88375 ,0.7154362416107383,0.02);
+		Mongolia.setPosition(0.81625 , 0.7355704697986577,0.02);
+		China.setPosition(0.7575, 0.6778523489932886,0.02);
+		India.setPosition(0.6875 , 0.5986577181208054,0.02);
+		Siam.setPosition(0.77375 , 0.6,0.02);
 		
 		
-		Indonesia.setPosition(0.06625,0.8644295302013423,0.02);
-		NewGuinea.setPosition(0.06625,0.8644295302013423,0.02);
-		EasternAustralia.setPosition(0.06625,0.8644295302013423,0.02);
-		WesternAustralia.setPosition(0.06625,0.8644295302013423,0.02);
-		
+		Indonesia.setPosition(0.78875 , 0.5302013422818792,0.02);
+		NewGuinea.setPosition(0.91125, 0.512751677852349,0.02);
+		EasternAustralia.setPosition(0.89125 , 0.425503355704698,0.02);
+		WesternAustralia.setPosition(0.78, 0.40402684563758384,0.02);
 		
 	}
 
