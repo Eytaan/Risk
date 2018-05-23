@@ -1,9 +1,8 @@
 import edu.princeton.cs.introcs.StdDraw;
-import java.util.concurrent.TimeUnit;
 
 public class Main {
 
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args) {
 		//REGIONS
 		Region NorthAmerica = new Region("North America");
 		Region SouthAmerica = new Region("South America");
