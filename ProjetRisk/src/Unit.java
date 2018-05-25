@@ -9,13 +9,15 @@ public abstract class Unit {
 	int att_priority;
 	int def_priority;
 	int mp; // movement points
-	public Unit(int cost, int min_strength, int att_priority, int def_priority, int mp) {
+	Territory territory;
+	public Unit(int cost, int min_strength, int att_priority, int def_priority, int mp, Territory territory) {
 		this.id=++id_counter;
 		this.cost=cost;
 		this.min_strength=min_strength;
 		this.att_priority=att_priority;
 		this.def_priority=def_priority;
 		this.mp=mp;
+		this.territory=territory;
 		
 	}
 	
