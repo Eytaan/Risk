@@ -9,6 +9,11 @@ public class Territory {
 	double x_pos;
 	double y_pos;
 	double width;
+	
+	int riders;
+	int cannons;
+	int soldiers;
+	int units = riders + cannons + soldiers;
 	public Territory(String name) {
 		this.id=++id_counter;
 		this.name=name;
@@ -25,6 +30,10 @@ public class Territory {
 	
 	public int getId() {
 		return this.id;
+	}
+	
+	public int getUnits() {
+		return units;
 	}
 
 
