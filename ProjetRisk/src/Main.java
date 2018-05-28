@@ -1,5 +1,6 @@
 import edu.princeton.cs.introcs.StdDraw;
 
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -252,6 +253,8 @@ public class Main {
 		NewGuinea.setPosition(0.91125, 0.512751677852349,0.02);
 		EasternAustralia.setPosition(0.89125 , 0.425503355704698,0.02);
 		WesternAustralia.setPosition(0.78, 0.40402684563758384,0.02);
+		
+		WesternAustralia.show();
 		
 	}
 

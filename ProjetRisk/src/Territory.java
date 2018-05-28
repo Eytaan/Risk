@@ -1,6 +1,8 @@
+import java.util.ArrayList;
 
 public class Territory {
 	static int id_counter=1;
+	public static ArrayList<Territory> territoriesArrayList = new ArrayList<Territory>();
 
 	int id; 
 	String name;
@@ -11,6 +13,7 @@ public class Territory {
 	public Territory(String name) {
 		this.id=++id_counter;
 		this.name=name;
+		territoriesArrayList.add(this);
 	}
 
 	//GET 
@@ -48,5 +51,11 @@ public class Territory {
 		return false;
 	}
 	
+	public void show() {
+		for(int k=0;k<territoriesArrayList.size();k++) {
+			String name = territoriesArrayList.get(k).getName();
+			System.out.println(name);
+		}
+	}
 
 }

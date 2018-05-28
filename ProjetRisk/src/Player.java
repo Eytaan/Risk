@@ -1,9 +1,11 @@
+import java.awt.Color;
 
 public class Player {
 	static int id_counter=0;
 
 	String name;
 	int id;
+	Color color;
 	//constructor
 	public Player(String name, int id) {
 		this.id=++id_counter;
