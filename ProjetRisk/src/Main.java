@@ -254,7 +254,6 @@ public class Main {
 		EasternAustralia.setPosition(0.89125 , 0.425503355704698,0.02);
 		WesternAustralia.setPosition(0.78, 0.40402684563758384,0.02);
 		
-		WesternAustralia.show();
 		
 	}
 
