@@ -14,6 +14,7 @@ public class Territory {
 		this.id=++id_counter;
 		this.name=name;
 		territoriesArrayList.add(this);
+		System.out.print(this.getName());
 	}
 
 	//GET 
@@ -51,11 +52,6 @@ public class Territory {
 		return false;
 	}
 	
-	public void show() {
-		for(int k=0;k<territoriesArrayList.size();k++) {
-			String name = territoriesArrayList.get(k).getName();
-			System.out.println(name);
-		}
-	}
+	
 
 }
